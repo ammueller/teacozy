@@ -19,6 +19,7 @@ header {
   border-bottom: solid seashell 1px;
   align-items: center;
   background-color: black;
+  z-index: 1;
 }
 
 .logoDiv {
@@ -91,3 +92,47 @@ h4 {
   padding: 10px;
   margin: 0px;
 }
+
+
+/*-- items section --*/
+
+.list {
+  align-items: center;
+  width: 1000px;
+}
+
+.itemstitle {
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.list h2,
+.list h4 {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.item img {
+  height: 200px;
+  width: 300px;
+  position: relative;
+  display: block;
+  padding: 20px 15px;
+}
+
+.item span {
+  padding: 20px;
+  font-size: 22px;
+  position: relative;
+}
+
+/*-- end items section --*/
