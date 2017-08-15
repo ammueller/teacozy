@@ -186,3 +186,28 @@ h3 {
 }
 
 /*-- end locations sections -- */
+/*-- contact section -- */
+
+.contact {
+  display: block;
+  justify-content: center;
+  height: 200px;
+  width: auto;
+  padding: 10px;
+}
+
+.contact h2 {
+  padding: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contact span {
+  text-align: center;
+}
+
+/*-- end contact --*/
+/*-- footer --*/
