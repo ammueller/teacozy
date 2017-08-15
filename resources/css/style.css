@@ -136,3 +136,19 @@ h4 {
 }
 
 /*-- end items section --*/
+
+/*-- begin locations section --*/
+
+.locations {
+  background-image: url(./../images/teacup.jpg);
+  height: 500px;
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.loctitle {
+  display: flex;
+  position: relative;
+}
