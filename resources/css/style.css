@@ -145,10 +145,44 @@ h4 {
   width: 1050px;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 .loctitle {
-  display: flex;
-  position: relative;
+  display: block;
+  position: absolute;
+  flex-wrap: nowrap;
 }
+
+.boxwrap {
+  padding-top: 110px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: black;
+  height: 215px;
+  width: 250px;
+  padding: 15px 20px;
+  margin: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: block;
+}
+
+.locations span {
+  display: block;
+  padding: 15px;
+  opacity: 1;
+}
+
+h3 {
+  font-size: 22px;
+  opacity: 1;
+  padding: 15px;
+  margin: 0;
+}
+
+/*-- end locations sections -- */
